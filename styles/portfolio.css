@@ -1,0 +1,60 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+.header{
+background-image: url(../images/developer.png),url(../images/header_bg.png);
+background-repeat: no-repeat;
+background-position: top left , right bottom;
+}
+
+/* shared color  */
+.orangecolor {color: #FD6E0A;}
+.dark02 {color: #474747;}
+.orangebtn {background-color: #FD6E0A;
+border-radius: 5px;
+font-size: 20px;
+font-weight: bold;
+color: white;
+padding: 18px 36px;
+border: none;}
+
+/* nav style */
+
+nav {
+     display: flex;
+    align-items: center;
+     margin: 0px 200px;
+    justify-content: space-between;
+}
+
+
+.navtitle {
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul {display: flex;
+align-items: center;}
+
+nav ul li {
+    list-style: none;
+    margin-right: 51px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+.btn2{display: flex;
+gap: 30px;}
+.cropimg{height: 676px;
+width: 584px;}
+.banner{display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bannerimg {margin-right: 61px;}
+.bannercontent{margin-right: 163px;
+margin-left: 207px;}
